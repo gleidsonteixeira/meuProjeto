@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<title>Kebra Galhos</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Gleidson Teixeira - gleidsondeveloper@gmail.com">
+<meta name="description" content="um site">
+
+<link href="css/materialize.min.css" rel="stylesheet" type="text/css">
+<link href="css/estilo.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+	<div id="perfil" class="blue-grey darken-3">
+    	
+    </div>
+    <div id="slide-out" class="side-nav fixed blue-grey darken-4">
+        <ul class="nm">
+            <li>
+                <a href="index.html" class="white-text">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="perfil.html" class="white-text">
+                    Perfil
+                </a>
+            </li>
+            <li>
+                <a href="banner.html" class="white-text">
+                    Banners
+                </a>
+            </li>
+            <li>
+                <a href="blog.html" class="white-text">
+                    Blog
+                </a>
+            </li>
+            <li>
+                <a href="depoimentos.html" class="white-text">
+                    Depoimentos
+                </a>
+            </li>
+            <li>
+                <a href="preferencias.html" class="white-text">
+                    Preferências
+                </a>
+            </li>
+        </ul>
+    </div>
+    <main class="suave">
+    	<h6 class="upper">
+            <b>
+                <a href="perfil.html">
+                    <i class="mdi-navigation-arrow-back"></i> voltar
+                </a>
+            </b>
+        </h6>
+		<h1 class="titulo thin nm">Editar Perfil</h1>
+        <div class="divider"></div>
+        <div class="perfil">
+        	<form class="row nm">
+            	<div class="col l6 m6 s12 np">
+                	<h6 class="blue-grey-text upper">
+                        <b>Preencha os dados:</b>
+                    </h6>
+                    <div class="input-field col s12">
+                        <i class="mdi-social-people prefix"></i>
+                        <input type="text" id="titulo"/>
+                        <label for="titulo">Titulo do banner</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="mdi-social-people prefix"></i>
+                        <textarea id="descricao" class="materialize-textarea"></textarea>
+                        <label for="descricao">Texto Opcional</label>
+                    </div>
+                    <div class="file-field input-field col s12">
+                    	<div class="btn">
+                        	<span>Imagem</span>
+                            <input type="file"/>
+                        </div>
+                        <div class="file-path-wrapper">
+                        	<input class="file-path"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l6 m6 s12 np">
+                	<h6 class="blue-grey-text upper">
+                        <b>Opções do banner:</b>
+                    </h6>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/scripts.js"></script>
+</html>
